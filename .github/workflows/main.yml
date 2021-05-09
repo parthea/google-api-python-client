@@ -15,8 +15,9 @@
 name: A workflow for updating discovery artifacts
 # Controls when the action will run.
 
-pull_request:
-  branches: [ master ]
+on:
+  pull_request:
+    branches: [ master ]
 
 jobs:
   build:
